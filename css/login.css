@@ -20,7 +20,7 @@ nav {
   padding: 0;
 }
 
-.menuNivel1 > li {
+.menuNivel1>li {
   display: inline-block;
   position: relative;
 }
@@ -77,6 +77,6 @@ nav img {
   border-radius: 5px;
 }
 
-body > p {
+body>p {
   text-align: center;
 }

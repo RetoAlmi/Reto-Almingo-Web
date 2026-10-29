@@ -53,7 +53,6 @@ nav img {
   display: block;
 }
 
-/* Login */
 #inicioSesion {
   background-color: white;
   width: 300px;
@@ -80,17 +79,4 @@ nav img {
 
 body > p {
   text-align: center;
-}
-
-/* Footer */
-footer {
-  background-color: #1f4d3a;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-}
-
-footer a {
-  color: white;
-  margin: 0 10px;
 }

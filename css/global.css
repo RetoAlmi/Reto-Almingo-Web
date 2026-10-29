@@ -31,10 +31,19 @@ header .login-icon {
     height: 20px;
 }
 
-header>h1,
-p {
+header>h1 {
+    color: white;
+    font-weight: 400px;
+    font-style: normal;
+    font-style: normal;
+}
+
+header>p {
+    width: 100%;
     color: white;
     text-align: center;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 
@@ -67,6 +76,9 @@ nav a {
     position: relative;
     border-radius: 7.5px;
     width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 5px;
 }
 
 .menuNivel1 li:hover {

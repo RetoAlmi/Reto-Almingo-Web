@@ -1,0 +1,146 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef4f1;
+  color: #222;
+}
+
+
+header {
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 4px solid #f2b632;
+}
+
+header img {
+  height: 70px;
+}
+
+header h1 {
+  color: #1f4d3a;
+  margin: 10px 0 5px 0;
+}
+
+nav {
+  background-color: #1f4d3a;
+  margin-top: 20px;
+}
+
+.menuNivel1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menuNivel1 > li {
+  display: inline-block;
+  position: relative;
+}
+
+.menuNivel1 a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menuNivel1 a:hover {
+  background-color: #173a2c;
+}
+
+.active {
+  border-bottom: 3px solid #f2b632;
+}
+
+nav img {
+  height: 18px;
+  vertical-align: middle;
+}
+
+/* Submenú */
+.menuNivel2 {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #173a2c;
+  min-width: 100%;
+}
+
+.menuNivel1 li:hover .menuNivel2 {
+  display: block;
+}
+
+/* ---------- Login ---------- */
+body > h1 {
+  text-align: center;
+  color: #1f4d3a;
+}
+
+#login {
+  background-color: white;
+  width: 320px;
+  margin: 0 auto 20px auto;
+  padding: 25px;
+  border: 1px solid #cfdcd5;
+  border-radius: 10px;
+}
+
+#login label {
+  font-weight: bold;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+#login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f4d3a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#login button:hover {
+  background-color: #173a2c;
+}
+
+body > p {
+  text-align: center;
+}
+
+a {
+  color: #1d6a8a;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #173a2c;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f2b632;
+}

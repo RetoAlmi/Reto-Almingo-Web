@@ -31,7 +31,8 @@ header .login-icon {
     height: 20px;
 }
 
-header > h1, p {
+header>h1,
+p {
     color: white;
     text-align: center;
 }
@@ -64,18 +65,51 @@ nav a {
     padding: 5px;
     text-align: center;
     position: relative;
+    border-radius: 7.5px;
+    width: 100%;
 }
 
 .menuNivel1 li:hover {
+    background-color: #6261f9;
+    transition: 0.2s;
 
 }
 
 .menuNivel1 li:active {
-
+    background-color: #3939b6;
 }
 
 .menuNivel1 .active {
-    
+    background-color: #0b6bce;
+}
+
+.menuNivel1 .iconoMenu {
+    width: 16px;
+    height: 16px;
+    filter: invert(100%);
+}
+
+.menuNivel1 li>a {
+    text-decoration: none;
+}
+
+.menuNivel2 {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+}
+
+.menuNivel2>li {
+    text-align: center;
+    background-color: #6261f9;
+    width: 93%;
+}
+
+.menuNivel1 li:hover ul {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -90,7 +124,7 @@ footer {
     bottom: 0px;
 }
 
-footer > a {
+footer>a {
     display: inline-block;
     margin-left: 5%;
     margin-top: 20px;

@@ -1,5 +1,5 @@
 <header>
-        <a href="index.html"> </a> <img src="images/logo.png" alt="Logo">
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
         <h1>WELCOME TO ALMINGO</h1>
         <p>Company specializing in software & app development</p>
         <nav>

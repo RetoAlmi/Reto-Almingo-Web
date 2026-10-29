@@ -1,3 +1,58 @@
-h2{
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-bottom: 80px;
+}
+
+
+/* HEADER */
+header {
+    background-color: #121212;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+header .logo {
+    width: 150px;
+    height: 150px;
+}
+
+header .login-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #121212;
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    margin-top: 5px;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer > a {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 20px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* OTROS */
+h2 {
     color: blue;
 }

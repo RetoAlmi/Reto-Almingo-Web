@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
-    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/global.css">
+    <title>Log in</title>
 </head>
 <body>
 
   <header>
-        <a href="index.html"> </a> <img src="images/logo.png" alt="Logo">
+        <a href="index.html"> </a> <img src="images/logo.png" alt="Logotipo">
         <h1>WELCOME TO ALMINGO</h1>
         <p>Company specializing in software & app development</p>
+
         <nav>
             <ul class="menuNivel1">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="activo"><a href="index.html">Home</a></li>
                 <li>
                     <a href="#">Thing 1</a>
                     <ul class="menuNivel2">
@@ -37,35 +39,30 @@
         </nav>
   </header>
 
-   
+  <h1>Log in</h1>
 
-
-  <h1>Iniciar sesión</h1>
- 
-  <div id="login">
+  <div id="inicioSesion">
     <p>
-      <label for="usuario">Usuario o correo electrónico:</label><br>
+      <label for="usuario">Username or email:</label><br>
       <input type="text" id="usuario" name="usuario" required>
     </p>
- 
+
     <p>
-      <label for="password">Contraseña:</label><br>
-      <input type="password" id="password" name="password" required>
+      <label for="contrasena">Password:</label><br>
+      <input type="password" id="contrasena" name="contrasena" required>
     </p>
- 
+
     <p>
       <input type="checkbox" id="recordar" name="recordar">
-      <label for="recordar">Recordarme</label>
+      <label for="recordar">Remember me</label>
     </p>
- 
+
     <p>
-      <button type="submit">Entrar</button>
+      <button type="submit">Log in</button>
     </p>
   </div>
- 
-  
-  <p>¿No tienes cuenta? <a href="register.html">Regístrate</a></p>
 
+  <p>Don't have an account? <a href="register.html">Register</a></p>
 
   <footer>
     <a href="#">About Us</a>

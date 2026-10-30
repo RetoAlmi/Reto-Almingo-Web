@@ -1,1 +1,15 @@
 /* PÁGINA CONFIA EN NOSOTROS */
+.contenedoeEmpresas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+
+.empresas {    
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

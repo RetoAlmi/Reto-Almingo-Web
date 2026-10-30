@@ -55,7 +55,6 @@ nav {
     justify-content: left;
     align-items: center;
     position: relative;
-    margin-left: 50px;
 }
 
 nav a {
@@ -66,6 +65,7 @@ nav a {
     display: flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .menuNivel1 li {
@@ -74,11 +74,13 @@ nav a {
     padding: 5px;
     text-align: center;
     position: relative;
-    border-radius: 7.5px;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
     width: 100%;
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: 5px;
+}
+
+.menuNivel1 .sinSubMenu {
+    border-radius: 7.5px;    
 }
 
 .menuNivel1 li:hover {
@@ -96,8 +98,8 @@ nav a {
 }
 
 .menuNivel1 .iconoMenu {
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     filter: invert(100%);
 }
 
@@ -116,7 +118,13 @@ nav a {
 .menuNivel2>li {
     text-align: center;
     background-color: #6261f9;
-    width: 93%;
+    width: auto;
+    border-radius: 0px;
+}
+
+.menuNivel2 .subMenuUltimo {
+    border-bottom-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
 }
 
 .menuNivel1 li:hover ul {

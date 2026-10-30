@@ -20,6 +20,7 @@
                     <img class="iconoMenu" src="images/login.png" alt="iconoMenu" />
                     Login
                 </a>
+            </li>
                 <ul class="menuNivel2">
                     <li class="active"><a href="register.html">Register</a></li>
                 </ul>

@@ -9,10 +9,6 @@ h1 {
   text-align: center;
 }
 
-.abajo{
-  text-align: center;
-  color: black;
-}
 
 #inicioSesion {
   background-color: whitesmoke;
@@ -46,7 +42,7 @@ body>p {
 p {
   color: black;
   text-align: center;
-  
+
 }
 
 #inicioSesion>p {

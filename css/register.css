@@ -1,1 +1,30 @@
 /* PÁGINA REGISTRO */
+
+h2 {
+  color: #0025f8;
+  text-align: center;
+}
+#formularioRegistro {
+  background-color: whitesmoke;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#formularioRegistro input[type="text"],
+#formularioRegistro input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#formularioRegistro button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f4d3a;
+  color: black;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}

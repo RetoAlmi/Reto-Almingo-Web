@@ -4,6 +4,10 @@ h2 {
   color: #0025f8;
   text-align: center;
 }
+p{
+  color: red;
+  margin-top: 5px;
+}
 
 #formularioRegistro {
   background-color: whitesmoke;
@@ -19,6 +23,7 @@ h2 {
   padding: 8px;
   box-sizing: border-box;
 }
+
 
 #formularioRegistro button {
   width: 100%;

@@ -1,3 +1,13 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página · ALMINGO S.L.</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/página.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon/logo.svg" />
+</head>
+
+
 <header>
     <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
     <h1>ALMINGO</h1>
@@ -21,9 +31,9 @@
                     Login
                 </a>
             </li>
-                <ul class="menuNivel2">
-                    <li class="active"><a href="register.html">Register</a></li>
-                </ul>
+            <ul class="menuNivel2">
+                <li class="active"><a href="register.html">Register</a></li>
+            </ul>
             </li>
         </ul>
     </nav>

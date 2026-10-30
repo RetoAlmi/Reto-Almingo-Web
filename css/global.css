@@ -80,7 +80,7 @@ nav a {
 }
 
 .menuNivel1 .sinSubMenu {
-    border-radius: 7.5px;    
+    border-radius: 7.5px;
 }
 
 .menuNivel1 li:hover {
@@ -95,6 +95,7 @@ nav a {
 
 .menuNivel1 .active {
     background-color: #0b6bce;
+    border-radius: 7.5px;
 }
 
 .menuNivel1 .iconoMenu {
@@ -119,6 +120,11 @@ nav a {
     text-align: center;
     background-color: #6261f9;
     width: auto;
+    border-radius: 0px;
+}
+
+.menuNivel2 .active {
+    background-color: #0b6bce;
     border-radius: 0px;
 }
 

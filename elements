@@ -17,7 +17,7 @@
         <p>Company specializing in software & app development</p>
         <nav>
             <ul class="menuNivel1">
-                <li class="sinSubMenu"><a href="index.html">Home</a></li>
+                <li class="sinSubMenu active"><a href="index.html">Home</a></li>
                 <li>
                     <a href="projects.html">Projects</a>
                     <ul class="menuNivel2">
@@ -32,10 +32,9 @@
                         <img class="iconoMenu" src="images/login.svg" alt="iconoMenu" />
                         Login
                     </a>
-                </li>
-                <ul class="menuNivel2">
-                    <li class="subMenuUltimo active"><a href="register.html">Register</a></li>
-                </ul>
+                    <ul class="menuNivel2">
+                        <li class="subMenuUltimo"><a href="register.html">Register</a></li>
+                    </ul>
                 </li>
             </ul>
         </nav>
@@ -46,7 +45,7 @@
 
     </main>
 
-    
+
     <footer>
         <a href="#">About Us</a>
         <a href="#">Terms and Conditions</a>

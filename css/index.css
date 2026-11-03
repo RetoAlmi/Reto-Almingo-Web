@@ -1,0 +1,23 @@
+.informacion {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: linear-gradient(#43026e, #1b0127);
+    border: 1px solid #43026e;
+    border-radius: 10px;
+    color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgb(205, 118, 240);
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.Categoria {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    
+}

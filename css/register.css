@@ -1,16 +1,20 @@
 /* PÁGINA REGISTRO */
 
 h2 {
-  color: #0025f8;
+  color: #fafafc;
   text-align: center;
+  margin-bottom: 10px;
 }
 p{
-  color: red;
+  color: rgb(27, 223, 86);
   margin-top: 5px;
 }
 
 #formularioRegistro {
   background-color: whitesmoke;
+  background: linear-gradient(#43026e, #1b0127);
+  border: 1px solid #43026e;
+  box-shadow: 0px 0px 15px rgb(205, 118, 240);
   width: 300px;
   margin: 0 auto;
   padding: 20px;
@@ -21,16 +25,23 @@ p{
 #formularioRegistro input[type="password"] {
   width: 100%;
   padding: 8px;
+  color: rgb(245, 241, 241);
+  margin-bottom: 8px;
   box-sizing: border-box;
+  background-color: #bc03f549;
+  border: 1px solid #f6f6f7;
+  border-radius: 10px;
 }
 
 
 #formularioRegistro button {
   width: 100%;
   padding: 10px;
-  background-color: #1f4d3a;
-  color: black;
+  color: rgb(243, 239, 239);
   border: none;
   margin-top: 10px;
+  background-color: #490450;
+  box-shadow: 0px 0px 10px rgb(205, 118, 240);
+  border: 1px solid #d57feb;
   border-radius: 5px;
 }

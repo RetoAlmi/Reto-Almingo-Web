@@ -19,5 +19,8 @@
     flex-direction: row;
     justify-content: center;
     margin: 20px auto;
-    
+    transition: transform 1000ms;
+}
+.informacion:hover {
+  transform: translateY(-15px);
 }

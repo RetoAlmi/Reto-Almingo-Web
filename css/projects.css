@@ -1,1 +1,76 @@
-/* PÁGINA PROYECTOS */
+/* PÁGINA PROYECTOS V2 */
+main h1, main h2, main p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    background-color: #121212;
+    border-radius: 25px;
+    margin: 25px;
+    width: 370px;
+    height: 280px;
+}
+
+.project .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.project .title img {
+    width: 75px;
+    height: 75px;
+    background-color: #181719;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project .text {
+    margin: 15px;
+    text-align: justify;
+}
+
+.project .url {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.project .url a {
+    text-decoration: none;
+    background-color: #0b6bce;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.separacion {
+    border: none;
+    /* Quita el borde predeterminado */
+    height: 2px;
+    /* Define el grosor de la línea */
+    background-color: white;
+    /* Cambia el color de la línea */
+    width: 90%;
+    /* Ajusta el ancho (opcional) */
+    margin: 20px auto;
+    /* Centra la línea y da espacio arriba/abajo */
+}

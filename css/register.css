@@ -21,8 +21,8 @@ p{
   border-radius: 10px;
 }
 
-#formularioRegistro input[type="text"],
-#formularioRegistro input[type="password"] {
+#formularioRegistro input[type="text"], #formularioRegistro input[type="number"],
+#formularioRegistro input[type="password"], #formularioRegistro input[type="email"] {
   width: 100%;
   padding: 8px;
   color: rgb(245, 241, 241);

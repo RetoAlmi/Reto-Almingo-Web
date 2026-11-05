@@ -13,6 +13,7 @@
     width: 100%;
     height: auto;
     min-width: 300px;
+    transition: transform 0.6s;
 }
 .Categoria {
 
@@ -20,7 +21,7 @@
     flex-direction: row;
     justify-content: center;
     margin: 20px auto;
-    transition: transform 1000ms;
+    
 }
 .informacion:hover {
   transform: translateY(-15px);
@@ -54,4 +55,45 @@
     color: #f5f5f5;
     text-align: left;
     font-size: 14px;
+}
+.informacion .tecnologia {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.informacion .tecnologia img {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.informacion .tecnologia p {
+    color: #f5f5f5;
+    text-align: left;
+    font-size: 15px;
+    margin: 0;
+}
+
+.informacion li {
+    list-style: none;
+}
+
+.informacion .boton-proyectos {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(#5f049c, #1b0127);
+    box-shadow: 0px 0px 10px rgb(205, 118, 240);
+    border: 1px solid #43026e;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+
+.informacion .boton-proyectos:hover {
+    transform: scale(1.1);
+    background: linear-gradient(#ab4fe9, #30194b);
+    transition: 0.2s;
+
 }

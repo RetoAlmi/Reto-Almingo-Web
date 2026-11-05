@@ -10,6 +10,12 @@ p{
   margin-top: 5px;
 }
 
+label {
+  color: #fafafc;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 #formularioRegistro {
   background-color: whitesmoke;
   background: linear-gradient(#43026e, #1b0127);
@@ -27,6 +33,7 @@ p{
   padding: 8px;
   color: rgb(245, 241, 241);
   margin-bottom: 8px;
+  margin-top: 5px;
   box-sizing: border-box;
   background-color: #bc03f549;
   border: 1px solid #f6f6f7;

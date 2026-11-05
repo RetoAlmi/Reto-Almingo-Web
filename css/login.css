@@ -1,58 +1,64 @@
-
-h1 {
-  color: #f0f5f3;
+h2 {
+  color: #fafafc;
   text-align: center;
   margin-bottom: 10px;
 }
 
+p {
+  color: rgb(27, 223, 86);
+  margin-top: 5px;
+}
+
+label {
+  color: #fafafc;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
 #inicioSesion {
+  background-color: whitesmoke;
   background: linear-gradient(#43026e, #1b0127);
   border: 1px solid #43026e;
-  box-shadow: 0px 0px 10px rgb(205, 118, 240);
+  box-shadow: 0px 0px 15px rgb(205, 118, 240);
   width: 300px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
-#inicioSesion input[type="text"],
+#inicioSesion input[type="email"],
 #inicioSesion input[type="password"] {
   width: 100%;
   padding: 8px;
-  box-sizing: border-box;
-}
-
-#inicioSesion button {
-  font-size: medium;
-  width: 100%;
-  padding: 10px;
-  background-color: #490450;
   color: rgb(245, 241, 241);
-  box-shadow: 0px 0px 10px rgb(205, 118, 240);
-  border: 1px solid #d57feb;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-body>p {
-  text-align: center;
-  color: black;
-}
-
-p {
-  color: rgb(236, 228, 228);
-  text-align: center; 
+  margin-bottom: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  background-color: #bc03f549;
+  border: 1px solid #f6f6f7;
   border-radius: 10px;
 }
 
-#inicioSesion>p {
-  text-align: center;
-  color: rgb(248, 248, 248);
+#inicioSesion button {
+  width: 100%;
+  padding: 10px;
+  color: rgb(243, 239, 239);
+  border: none;
+  margin-top: 10px;
+  background-color: #490450;
+  box-shadow: 0px 0px 10px rgb(205, 118, 240);
+  border: 1px solid #d57feb;
+  border-radius: 5px;
 }
 
 #inicioSesion button:hover {
   background-color: #cd97eb;
   transition: 0.5s;
+}
+
+main>p {
+  text-align: center;
+  color: rgb(27, 223, 86);
+  margin-top: 20px;
 }

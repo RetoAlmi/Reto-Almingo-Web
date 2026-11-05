@@ -25,3 +25,33 @@
 .informacion:hover {
   transform: translateY(-15px);
 }
+.informacion img {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+.informacion h2 {
+    color: #f5f5f5;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.informacion h3 {
+    color: #ad01fd;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+} 
+.separacion-about {
+    border: none;
+    height: 3px;
+    background-color: #8b2cff;
+    width: 100px;
+    margin: 24px 0;
+}
+.informacion p {
+    color: #f5f5f5;
+    text-align: left;
+    font-size: 14px;
+}

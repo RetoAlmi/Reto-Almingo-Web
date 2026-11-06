@@ -1,27 +1,24 @@
 .informacion {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
     background: linear-gradient(#43026e, #1b0127);
     border: 1px solid #43026e;
     border-radius: 10px;
     color: #f5f5f5;
     padding: 20px;
-    margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgb(205, 118, 240);
     text-align: center;
     box-sizing: border-box;
-    width: 100%;
+    width: 33%;
     height: auto;
     min-width: 300px;
     transition: transform 0.6s;
 }
 .Categoria {
-
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 20px auto;
-    
+    gap: 40px;
+    margin: 20px;
 }
 .informacion:hover {
   transform: translateY(-15px);

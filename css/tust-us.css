@@ -1,15 +1,40 @@
-/* PÁGINA CONFIA EN NOSOTROS */
-.contenedoeEmpresas {
-    width: 100%;
-    display: flex;
+.tarjetas{
+  display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    position: relative;
+    justify-content: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
 }
 
-.empresas {
-    display: flex;
-    align-items: center;
+.compañia{
+    margin-right: 20px;
+    background: linear-gradient(#43026e, #1b0127);
+    border: 1px solid #43026e;
+    border-radius: 10px;
+    color: #f5f5f5;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgb(205, 118, 240);
+    text-align: left;
     width: 100%;
+    max-width: 250px;
+
+}
+.compañia img{
+    display: block;
+    margin: 0 0 16px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    
+    
+}
+.compañia h3{
+    margin: 0;
+    text-align: left;
+    font-size: 30px;
+}
+
+.compañia p{
+   margin-top: 10px;
 }

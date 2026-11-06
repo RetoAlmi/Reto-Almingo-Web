@@ -13,11 +13,16 @@ main h1, main h2, main p {
 }
 
 .project {
-    background-color: #121212;
+    background: linear-gradient(#43026e, #1b0127);
     border-radius: 25px;
     margin: 25px;
     width: 370px;
     height: 280px;
+    box-shadow: 0px 0px 12px rgb(205, 118, 240);
+}
+.project:hover {
+    transform: translateY(-15px);
+    transition: transform 0.6s;
 }
 
 .project .title {
@@ -32,10 +37,14 @@ main h1, main h2, main p {
 .project .title img {
     width: 75px;
     height: 75px;
-    background-color: #181719;
+    background-color: transparent;
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
+}
+.project .title img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
 .project .text {
@@ -55,11 +64,17 @@ main h1, main h2, main p {
 
 .project .url a {
     text-decoration: none;
-    background-color: #0b6bce;
+     background: linear-gradient(#7b09c7, #42025f);
     border-radius: 5px;
     color: white;
     padding: 5px;
     margin: 5px;
+    transition: transform 0.3s;
+}
+.project .url a:hover {
+   transform: scale(1.05);
+    background: linear-gradient(#ab4fe9, #512d88);
+    transition: 0.1s;
 }
 
 .separacion {
@@ -67,7 +82,7 @@ main h1, main h2, main p {
     /* Quita el borde predeterminado */
     height: 2px;
     /* Define el grosor de la línea */
-    background-color: white;
+    background-color: #8b2cff;
     /* Cambia el color de la línea */
     width: 90%;
     /* Ajusta el ancho (opcional) */

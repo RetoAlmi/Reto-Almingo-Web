@@ -82,7 +82,7 @@ nav a {
 .menuNivel1 li {
     list-style: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 0;
     text-align: center;
     position: relative;
     border-top-left-radius: 7.5px;
@@ -116,6 +116,8 @@ nav a {
 }
 
 .menuNivel1 li>a {
+    display: block;
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -169,4 +171,3 @@ footer>a {
     text-decoration: none;
     color: white;
 }
-

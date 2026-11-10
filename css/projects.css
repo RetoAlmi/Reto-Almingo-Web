@@ -24,7 +24,7 @@ main h1, main h2, main p {
 }
 .project:hover {
     transform: translateY(-15px);
-    transition: transform 0.6s;
+    transition: transform 0.3s;
 }
 
 .project .title {

@@ -88,6 +88,7 @@ nav a {
     border-top-left-radius: 7.5px;
     border-top-right-radius: 7.5px;
     width: 100%;
+    transition: 0.2s;
 }
 
 .menuNivel1 .sinSubMenu {
@@ -112,7 +113,6 @@ nav a {
 .menuNivel1 .iconoMenu {
     width: 15px;
     height: 15px;
-    filter: invert(100%);
 }
 
 .menuNivel1 li>a {

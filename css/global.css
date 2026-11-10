@@ -12,14 +12,11 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
+    font-family: Arial, sans-serif;
 }
 main {
     padding-bottom: 80px;
 }
-body {
-    font-family: Arial, sans-serif;
-}
-
 
 /* HEADER */
 header {
@@ -42,21 +39,21 @@ header .login-icon {
     height: 20px;
 }
 
-header>h1 {
+header > h1 {
     color: white;
-    font-weight: 400px;
-    font-style: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
-header>p {
+header > p {
     width: 100%;
     color: white;
     text-align: center;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
 
 /* NAV */
 nav {
@@ -76,7 +73,6 @@ nav a {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-bottom: 5px;
 }
 
 .menuNivel1 li {
@@ -98,7 +94,6 @@ nav a {
 .menuNivel1 li:hover {
     background-color: #6261f9;
     transition: 0.2s;
-
 }
 
 .menuNivel1 li:active {
@@ -115,7 +110,7 @@ nav a {
     height: 15px;
 }
 
-.menuNivel1 li>a {
+.menuNivel1 li > a {
     display: block;
     padding: 5px;
     text-decoration: none;
@@ -129,7 +124,7 @@ nav a {
     right: 0;
 }
 
-.menuNivel2>li {
+.menuNivel2 > li {
     text-align: center;
     background-color: #6261f9;
     width: auto;
@@ -151,7 +146,6 @@ nav a {
     flex-direction: column;
 }
 
-
 /* FOOTER */
 footer {
     background-color: #121212;
@@ -163,11 +157,56 @@ footer {
     bottom: 0px;
 }
 
-footer>a {
+footer > a {
     display: inline-block;
     margin-left: 5%;
     margin-top: 20px;
     position: relative;
     text-decoration: none;
     color: white;
+}
+
+
+/* DISEÑO PARA TELEFONOS */
+@media (max-width: 768px) {
+    /* Header en columna para pantallas estrechas */
+    header {
+        flex-direction: column;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header .logo {
+        width: 120px;
+        margin-bottom: 5px;
+    }
+
+    /* Menú de navegación adaptado a vertical */
+    .menuNivel1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menuNivel1 li {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 2px;
+    }
+
+    .menuNivel1 .sinSubMenu,
+    .menuNivel1 .active {
+        border-radius: 0;
+    }
+
+    /* Submenús en pantallas táctiles / pequeñas */
+    .menuNivel2 {
+        position: static;
+        width: 100%;
+    }
+
+    /* Ajustes generales del footer para móviles */
+    footer > a {
+        margin-left: 0;
+        font-size: 14px;
+    }
 }

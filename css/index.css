@@ -58,6 +58,8 @@
     align-items: center;
     gap: 10px;
     margin-top: 10px;
+   
+
 }
 .informacion .tecnologia img {
     display: block;
@@ -93,4 +95,35 @@
     background: linear-gradient(#ab4fe9, #30194b);
     transition: 0.2s;
 
+}
+.java{
+    background-color: #8d1212;
+    box-shadow: 0 0px 10px rgb(201, 3, 3);
+    border-radius: 60px;
+}
+.python{
+    background-color: #345b8c;
+    box-shadow: 0px 0px 10px rgba(6, 118, 209, 0.973);
+    border-radius: 60px;   
+}
+.html5{
+    background-color: #a74716;
+    box-shadow: 0px 0px 10px rgb(201, 80, 25);
+    border-radius: 60px;
+}
+.react{
+    background-color: #287c70;
+    box-shadow: 0px 0px 10px rgb(9, 211, 201);
+    border-radius: 60px;
+}
+.javascript {
+    background-color: #af920d;
+    box-shadow: 0px 0px 10px rgba(231, 235, 2, 0.986);
+    border-radius: 60px;
+    padding: 1px 1px;
+}
+
+.javascript img {
+    border-radius: 4px;
+    filter: brightness(0.78) saturate(0.85);
 }

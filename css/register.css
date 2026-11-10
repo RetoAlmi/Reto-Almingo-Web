@@ -51,4 +51,10 @@ label {
   box-shadow: 0px 0px 10px rgb(205, 118, 240);
   border: 1px solid #d57feb;
   border-radius: 5px;
+
+}
+
+#formularioRegistro button:hover {
+  background-color: #cd97eb;
+  transition: 0.5s;
 }

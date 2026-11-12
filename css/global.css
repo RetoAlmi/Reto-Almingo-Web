@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url("../images/fondo.jpg");
     width: 100%;
@@ -14,6 +15,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+
 main {
     padding-bottom: 80px;
 }
@@ -39,13 +41,13 @@ header .login-icon {
     height: 20px;
 }
 
-header > h1 {
+header>h1 {
     color: white;
     font-weight: 400;
     font-style: normal;
 }
 
-header > p {
+header>p {
     width: 100%;
     color: white;
     text-align: center;
@@ -110,7 +112,7 @@ nav a {
     height: 15px;
 }
 
-.menuNivel1 li > a {
+.menuNivel1 li>a {
     display: block;
     padding: 5px;
     text-decoration: none;
@@ -124,7 +126,7 @@ nav a {
     right: 0;
 }
 
-.menuNivel2 > li {
+.menuNivel2>li {
     text-align: center;
     background-color: #6261f9;
     width: auto;
@@ -157,7 +159,7 @@ footer {
     bottom: 0px;
 }
 
-footer > a {
+footer>a {
     display: inline-block;
     margin-left: 5%;
     margin-top: 20px;
@@ -169,6 +171,7 @@ footer > a {
 
 /* DISEÑO PARA TELEFONOS */
 @media (max-width: 768px) {
+
     /* Header en columna para pantallas estrechas */
     header {
         flex-direction: column;
@@ -205,7 +208,7 @@ footer > a {
     }
 
     /* Ajustes generales del footer para móviles */
-    footer > a {
+    footer>a {
         margin-left: 0;
         font-size: 14px;
     }

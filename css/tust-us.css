@@ -1,27 +1,29 @@
 main h2 {
-  color: #fafafc;
-  text-align: center;
-  margin-bottom: 10px;
+    color: #fafafc;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
 main h3 {
-  color: #fafafc;
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 30px;
-  margin-top: 10px;
+    color: #fafafc;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 10px;
 }
-.tarjetas{
-  display: flex;
+
+.tarjetas {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 20px auto;
     flex-wrap: wrap;
-   position: relative;
+    position: relative;
     transition: transform 0.3s ease, filter 0.3s ease;
     gap: 10px;
 }
 
-.compañia{
+.compañia {
     margin-right: 20px;
     background: linear-gradient(#43026e, #1b0127);
     border: 1px solid #43026e;
@@ -34,32 +36,36 @@ main h3 {
     width: 100%;
     max-width: 250px;
     transition: 0.1s;
-  
+
 }
+
 .tarjetas:has(.compañia:hover) .compañia:not(:hover) {
     filter: brightness(0.7);
 }
+
 .compañia:hover {
- transform: scale(1.08);
+    transform: scale(1.08);
     z-index: 2;
 }
-.compañia img{
+
+.compañia img {
     display: block;
     margin: 0 0 16px;
     width: 50px;
     height: 50px;
     background-color: transparent;
-    
-    
+
+
 }
-.compañia h3{
+
+.compañia h3 {
     margin: 0;
     text-align: left;
     font-size: 30px;
 }
 
-.compañia p{
-   margin-top: 10px;
+.compañia p {
+    margin-top: 10px;
 }
 
 .contenerdorEmpresas {

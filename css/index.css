@@ -13,6 +13,7 @@
     min-width: 300px;
     transition: transform 0.3s;
 }
+
 .Categoria {
     display: flex;
     flex-wrap: wrap;
@@ -20,27 +21,32 @@
     gap: 40px;
     margin: 20px;
 }
+
 .informacion:hover {
-  transform: translateY(-15px);
+    transform: translateY(-15px);
 }
+
 .informacion img {
     display: flex;
     align-items: center;
     gap: 20px;
     text-align: left;
 }
+
 .informacion h2 {
     color: #f5f5f5;
     text-align: left;
     margin-bottom: 10px;
 
 }
+
 .informacion h3 {
     color: #ad01fd;
     text-align: left;
     margin-bottom: 10px;
     font-size: 16px;
-} 
+}
+
 .separacion-about {
     border: none;
     height: 3px;
@@ -48,24 +54,28 @@
     width: 100px;
     margin: 24px 0;
 }
+
 .informacion p {
     color: #f5f5f5;
     text-align: left;
     font-size: 14px;
 }
+
 .informacion .tecnologia {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-   
+
 
 }
+
 .informacion .tecnologia img {
     display: block;
     width: 24px;
     height: 24px;
 }
+
 .informacion .tecnologia p {
     color: #f5f5f5;
     text-align: left;
@@ -96,26 +106,31 @@
     transition: 0.2s;
 
 }
-.java{
+
+.java {
     background-color: #8d1212;
     box-shadow: 0 0px 10px rgb(201, 3, 3);
     border-radius: 60px;
 }
-.python{
+
+.python {
     background-color: #345b8c;
     box-shadow: 0px 0px 10px rgba(6, 118, 209, 0.973);
-    border-radius: 60px;   
+    border-radius: 60px;
 }
-.html5{
+
+.html5 {
     background-color: #a74716;
     box-shadow: 0px 0px 10px rgb(201, 80, 25);
     border-radius: 60px;
 }
-.react{
+
+.react {
     background-color: #287c70;
     box-shadow: 0px 0px 10px rgb(9, 211, 201);
     border-radius: 60px;
 }
+
 .javascript {
     background-color: #af920d;
     box-shadow: 0px 0px 10px rgba(231, 235, 2, 0.986);

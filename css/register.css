@@ -5,7 +5,8 @@ h2 {
   text-align: center;
   margin-bottom: 10px;
 }
-p{
+
+p {
   color: rgb(27, 223, 86);
   margin-top: 5px;
 }
@@ -16,6 +17,7 @@ label {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 #formularioRegistro {
   background-color: whitesmoke;
   background: linear-gradient(#43026e, #1b0127);
@@ -27,8 +29,10 @@ label {
   border-radius: 10px;
 }
 
-#formularioRegistro input[type="text"], #formularioRegistro input[type="number"],
-#formularioRegistro input[type="password"], #formularioRegistro input[type="email"] {
+#formularioRegistro input[type="text"],
+#formularioRegistro input[type="number"],
+#formularioRegistro input[type="password"],
+#formularioRegistro input[type="email"] {
   width: 100%;
   padding: 8px;
   color: rgb(245, 241, 241);

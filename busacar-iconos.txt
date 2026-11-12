@@ -1,5 +1,0 @@
-java
-Python
-html5
-JavaScript
-react

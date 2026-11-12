@@ -131,6 +131,12 @@ nav a {
     background-color: #6261f9;
     width: auto;
     border-radius: 0px;
+    transition: background-color 0.2s ease;
+}
+
+.menuNivel2>li:hover,
+.menuNivel2>li:focus-within {
+    background-color: #3f3fec;
 }
 
 .menuNivel2 .active {
